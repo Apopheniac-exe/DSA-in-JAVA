@@ -1,3 +1,5 @@
+package Binary_search;
+
 import java.util.Arrays;
 
 public class FirstLast_occurrence_optimized {

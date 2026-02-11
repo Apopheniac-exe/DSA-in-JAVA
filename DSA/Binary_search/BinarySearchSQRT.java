@@ -1,3 +1,5 @@
+package Binary_search;
+
 public class BinarySearchSQRT {
     public static void main(String[] args) {
            int n=250;

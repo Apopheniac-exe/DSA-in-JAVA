@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.*;
 public class Magic_number_using_bitwise {
     public static void main(String args[]) {

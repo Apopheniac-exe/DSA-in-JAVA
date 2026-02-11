@@ -1,3 +1,5 @@
+package Binary_search;
+
 public class Rotated_sorted_array {
     static boolean search(int[] arr, int target)
     {

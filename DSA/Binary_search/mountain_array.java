@@ -1,3 +1,5 @@
+package Binary_search;
+
 public class mountain_array {
 static int Search(int[] arr, int target)
 {

@@ -1,3 +1,5 @@
+package Binary_search;
+
 public class Order_Agnostic_BS {
     static int orderagnostic(int[] arr, int target) {
         boolean val = arr[0] < arr[arr.length - 1];

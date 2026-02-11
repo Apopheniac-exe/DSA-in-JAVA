@@ -1,3 +1,5 @@
+package Binary_search;
+
 public class peak_value {
     public static int peak(int[] arr) {
         int start=0,end=arr.length-1;

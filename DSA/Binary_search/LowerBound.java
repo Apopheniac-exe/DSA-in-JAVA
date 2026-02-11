@@ -1,11 +1,13 @@
-public class UpperBound {
+package Binary_search;
+
+public class LowerBound {
     public static void main(String[] args) {
         int[] nums={-2,0,5,7,9,11,15,17,19};
-        int target=6;
-        System.out.println("The Upper bound is = "+nums[upperbound(nums,target)]);
+        int target=1;
+        System.out.println("The Lower bound is = "+nums[lowerbound(nums,target)]);
     }
 
-    static int upperbound(int[] nums, int target)
+    static int lowerbound(int[] nums, int target)
     {
         int start=0;
         int end=nums.length-1;
@@ -20,7 +22,7 @@ public class UpperBound {
             else
                 return mid;
         }
-        return start;
+        return end;
 
     }
 }

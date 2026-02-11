@@ -1,6 +1,6 @@
-import java.util.Arrays;
+package Arrays;
 
- class cycle_sort_find_missing_num {
+class cycle_sort_find_missing_num {
     public static void main(String[] args) {
         int[] arr = {2, 1, 5, 3, 0};
         cycle(arr);
